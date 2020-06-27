@@ -12,11 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AdLimeAppLovinGlobalConfig : AdLimeNetworkConfig
 
-/**
- * Determines whether to begin video ads in a muted state or not. Defaults to NO unless changed in the dashboard.
- */
-@property (assign, atomic) BOOL muted;
-
 @end
 
 NS_ASSUME_NONNULL_END
